@@ -13,9 +13,10 @@
 </head>
 <body>
 
-<a href="#main-content">Skip to Main Content</a>
+<a href="#main-content" class="skip-link">Skip to Main Content</a>
 
 <header>
+
     <h1>Kartik's Portfolio</h1>
 
     <nav aria-label="Main Navigation">
@@ -26,37 +27,47 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <button id="theme-toggle">🌙 Dark Mode</button>
+
 </header>
 
 <main id="main-content">
 
-<section>
+<section class="card">
+
     <h2>Welcome</h2>
+
     <p>
         Hello! I am Kartik, a Computer Science student interested in
-        Web Development and Data Structures & Algorithms.
+        Web Development, Data Structures & Algorithms, and Responsive Web Design.
     </p>
+
 </section>
 
-<section>
+<section class="card">
+
     <h2>Skills</h2>
 
     <article>
         <h3>Programming</h3>
-        <p>C++, HTML, CSS, JavaScript</p>
+        <p>C++, HTML5, CSS3, JavaScript</p>
     </article>
 
     <article>
         <h3>Tools</h3>
         <p>Git, GitHub, VS Code</p>
     </article>
+
 </section>
 
 </main>
 
 <footer>
-    <p>&copy; 2026 Kartik</p>
+    <p>&copy; 2026 Kartik | All Rights Reserved</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
